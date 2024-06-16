@@ -7,6 +7,7 @@ LinkPay simplifies this experience with a straightforward platform where payment
 This repo includes both Frontend and Backend implementations.
 
 FrontEnd - NextJs application (under Frontend Folder)
+
 BackEnd  - Flask App 
 
 # To run the server :
@@ -44,7 +45,7 @@ the app
 # LinkPay FrontEnd Overview:
 [screen-capture.webm](https://github.com/toastx/LinkPay/assets/108117611/9719272b-57d1-49a3-b331-f7f19ec4c6a0)
 
-# LinkPay WorkFlow Implementation:
+# LinkPay Implementation (Yt Video):
 [![IMAGE ALT TEXT HERE](https://assets.devfolio.co/hackathons/ab58fdece365474481227c045ce6363d/projects/9839029a4d984fee83a0928228e089f2/8d1663e2-3b1e-468b-ad7b-c861dacb0303.png)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=gy6E6-ZgrxE))
 
 
