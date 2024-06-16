@@ -15,13 +15,13 @@ export const projects = [
     link: "",
   },
   {
-    title: "onboard web2",
+    title: "Onboard Web2",
     description:
       "Send digital assets at scale, even to non-crypto users",
     link: "",
   },
   {
-    title: "Pay Easy, Pay Securely",
+    title: "Pay easy, Pay secure",
     description:
       "Easily pay to the request by using lobster wallet in a secure environment",
     link: "",
