@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation';
 import { MultiStepLoader } from "@/components/ui/multi-step-loader";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import PayPage from '@/components/maskedDiv';
 
 const loadingStates = [
@@ -51,8 +51,10 @@ export default function Home() {
 
   return (
     <main>
+      <Suspense fallback={<div>Loading...</div>}>
       <MultiStepLoader loadingStates={loadingStates} loading={isLoading} duration={2000} />
-      <PayPage params={queryParams} />
+        <PayPage params={queryParams} />
+      </Suspense>
     </main>
   );
 }
