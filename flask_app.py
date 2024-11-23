@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from stellar_sdk import TransactionBuilder, Asset, Server, exceptions, Network, Keypair
 import uuid
 import base64
-from payments import create_payment_request
 from flask_cors import CORS
 
 app = Flask(__name__)

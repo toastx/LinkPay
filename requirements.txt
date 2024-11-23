@@ -1,5 +1,4 @@
 Flask==1.1.2
 Flask_Cors==4.0.0
 Flask_Cors==4.0.1
-payments==0.02
 stellar_sdk==10.0.0
