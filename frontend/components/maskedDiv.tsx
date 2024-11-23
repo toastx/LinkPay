@@ -71,10 +71,10 @@ export default function PayPage({ params }: PayPageProps) {
         };
         console.log(data);
         try {
-            const response = await axios.post('http://127.0.0.1:5000/pay', data, {
+            const response = await axios.post('https://toastx11.pythonanywhere.com/pay', data, {
                 headers: {
                     'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin':'http://127.0.0.1:5000'
+                    'Access-Control-Allow-Origin':'https://toastx11.pythonanywhere.com'
                 },
             });
 

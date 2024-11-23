@@ -16,7 +16,7 @@ export default function CreateLink() {
     const server = new Horizon.Server('https://horizon-futurenet.stellar.org');
     const [address, setAddress] = useState("");
     const [amount, setAmount] = useState("");
-    const [link,setLink] = useState(null||"");
+    const [link,setLink] = useState("");
     async function getPubkey() {
         if (await isConnected()) {
             console.log("user has freighter")
@@ -56,10 +56,10 @@ export default function CreateLink() {
         };
         console.log(data);
         try {
-            const response = await axios.post('http://127.0.0.1:5000/create', data, {
+            const response = await axios.post('https://toastx11.pythonanywhere.com/create', data, {
                 headers: {
                     'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin':'http://127.0.0.1:5000'
+                    'Access-Control-Allow-Origin':'https://toastx11.pythonanywhere.com'
                 },
             });
 
