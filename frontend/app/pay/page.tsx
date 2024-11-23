@@ -5,6 +5,8 @@ import { MultiStepLoader } from "@/components/ui/multi-step-loader";
 import { useState, useEffect, Suspense } from "react";
 import PayPage from '@/components/maskedDiv';
 
+export const dynamic = 'force-dynamic';
+
 const loadingStates = [
   {
     text: "Welcome",
