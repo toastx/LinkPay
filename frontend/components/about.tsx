@@ -15,7 +15,7 @@ export function About() {
         Create a <span className="text-red-500">link</span> with the amount you wanted to receive and your public key.
         <br /> <br />
         <span className="text-red-500">Share it</span> to your friends<br /> <br />
-        That's it, request made simple. they can <span className="text-red-500">pay</span> using that link
+        Thats it, request made simple. they can <span className="text-red-500">pay</span> using that link
 
       </MaskContainer>
     </div>
